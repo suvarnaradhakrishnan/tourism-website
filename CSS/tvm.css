@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    padding-top: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container a{
+    text-decoration: none;
+    color: red;
+}
+.container h2{
+    padding-top: 30px;
+    text-align: center;
+    color:navy;
+}
+.dest{
+    padding-bottom: 50px;
+}
+

@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    padding-top: 20px;
+    padding-bottom: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container h2{
+    text-align: center;
+    color: navy;
+}
+.card-body h5{
+    text-align: center;
+}
+footer{
+    padding-top: 20px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    height: 80px;
+}
