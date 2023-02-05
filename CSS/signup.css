@@ -2,6 +2,10 @@
     margin: 0px;
     padding: px;
 }
+nav{
+    background-color:navy;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 body{
     background-image: url(../images/munnar.jpg);
     background-size: cover;
@@ -12,7 +16,7 @@ body{
 }
 .form{
     border: 3px solid navy;
-    background-color:lightgreen;
+    background-color:wheat;
     border-radius: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -30,7 +34,7 @@ body{
 footer{
     padding-top: 20px;
     text-align: center;
-    background-color: black;
+    background-color: navy;
     color: white;
     height: 80px;
 }

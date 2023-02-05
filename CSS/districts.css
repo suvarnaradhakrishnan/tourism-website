@@ -2,22 +2,33 @@
     margin: 0px;
     padding: 0px;
 }
+nav{
+    background-color:navy;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 .container{
     padding-top: 20px;
     padding-bottom: 30px;
+    margin-bottom: 30px;
+    background-color:mediumvioletred;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .container h2{
     text-align: center;
     color: navy;
+    background-color:pink;
+}
+.card-body{
+    background-color:gold;
 }
 .card-body h5{
     text-align: center;
+    color:brown ;
 }
 footer{
     padding-top: 20px;
     text-align: center;
-    background-color: black;
+    background-color: navy;
     color: white;
     height: 80px;
 }

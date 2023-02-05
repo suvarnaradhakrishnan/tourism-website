@@ -2,20 +2,33 @@
     margin: 0px;
     padding: 0px;
 }
+.links{
+    padding-top: 35px;
+    padding-left: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.links a{
+    text-decoration: none;
+    color:blue;
+}
 .container{
-    padding-top: 50px;
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color:bisque;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .container a{
     text-decoration: none;
-    color: red;
+    color:red;
 }
 .container h2{
-    padding-top: 30px;
     text-align: center;
-    color:navy;
+    color:deeppink;
+    background-color:darkgreen;
 }
 .dest{
-    padding-bottom: 50px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
 }
 
