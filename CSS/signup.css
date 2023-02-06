@@ -38,3 +38,11 @@ footer{
     color: white;
     height: 80px;
 }
+.displayBadge{
+    margin-top: 5%; 
+    display: none; 
+    text-align :center;
+    width: 100%;
+}
+
+

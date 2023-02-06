@@ -39,15 +39,18 @@
       <div class="col col-sm-12 col-md-4 col-lg-4 col-xl-4">
       </div>
       <div class="col col-sm-12 col-md-4 col-lg-4 col-xl-4">
-        <form class="form p-4">
+        <form class="form p-4" action="index.html" onsubmit="return login_validation()">
             <h2>Login</h2>
             <div class="mb-3">
               <label for="exampleInputEmail1" class="form-label">Email</label>
-              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+              <input type="email" class="form-control" id="email" aria-describedby="emailHelp" onkeyup="email_validation()">
+              <span id="email_error"></span>
             </div>
             <div class="mb-3">
               <label for="exampleInputPassword1" class="form-label">Password</label>
-              <input type="password" class="form-control" id="exampleInputPassword1">
+              <input type="password" class="form-control" id="pwd" onkeyup="pwd_validation()">
+              <span id="StrengthDisp" class="badge displayBadge"></span>
+              <span id="pwd_error"></span>
             </div>
             <div class="signup">
             <button type="submit" class="btn btn-primary">Login</button><br><br>
@@ -65,5 +68,6 @@
   <h6>Department of Tourism, Government of Kerala, Park View, Thiruvananthapuram, Kerala, India - 695 033</h6>
   <h6>Copyright @ 2023.</h6>
 </footer>
+<script src="signup.js"></script>
 </body>
 </html>

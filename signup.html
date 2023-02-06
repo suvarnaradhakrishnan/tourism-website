@@ -39,11 +39,12 @@
     <div class="col col-sm-12 col-md-3 col-lg-3 col-xl-3">
     </div>
     <div class="col col-sm-12 col-md-6 col-lg-6 col-xl-6">
-        <form class="row g-3 form p-3">
+        <form class="row g-3 form p-3" action="login.html" onsubmit="return signup_validation()">
             <h2>Sign Up</h2>
             <div class="col-md-6">
                 <label for="inputFName" class="form-label">First Name</label>
-                <input type="text" class="form-control" id="inputName">
+                <input type="text" class="form-control" id="fname" onkeyup="fname_validation()">
+                <span id="fname_error"></span>
             </div>
             <div class="col-md-6">
                 <label for="inputLName" class="form-label">Last Name</label>
@@ -51,19 +52,24 @@
             </div>
             <div class="col-md-6">
                 <label for="inputEmail4" class="form-label">Email</label>
-                <input type="email" class="form-control" id="inputEmail4">
+                <input type="text" class="form-control" id="email" onkeyup="email_validation()">
+                <span id="email_error"></span>
             </div>
             <div class="col-md-6">
                 <label for="inputmobile" class="form-label">Mobile Number</label>
-                <input type="text" class="form-control" id="inputmobile">
+                <input type="text" class="form-control" id="mobile" onkeyup="mobile_validation()">
+                <span id="mobile_error"></span>
             </div>
             <div class="col-md-6">
                 <label for="inputPassword4" class="form-label">Password</label>
-                <input type="password" class="form-control" id="inputPassword4"> 
+                <input type="password" class="form-control" id="pwd" onkeyup="pwd_validation()"> 
+                <span id="StrengthDisp" class="badge displayBadge"></span>
+                <span id="pwd_error"></span>
             </div>
             <div class="col-md-6">
                 <label for="inputPassword4" class="form-label">Confirm Password</label>
-                <input type="password" class="form-control" id="inputPassword4">
+                <input type="password" class="form-control" id="re_pwd" onkeyup="re_pwd_validation()">
+                <span id="re_pwd_error"></span>
             </div>
             <div class="col-12 signup">
                 <button type="submit" class="btn btn-primary">Sign up</button><br><br>
@@ -81,5 +87,6 @@
     <h6>Department of Tourism, Government of Kerala, Park View, Thiruvananthapuram, Kerala, India - 695 033</h6>
     <h6>Copyright @ 2023.</h6>
   </footer>
+  <script src="signup.js"></script>
 </body>
 </html>
